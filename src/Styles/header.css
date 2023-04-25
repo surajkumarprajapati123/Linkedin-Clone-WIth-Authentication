@@ -1,0 +1,40 @@
+.header
+{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    justify-content: space-between;
+    height: 35px;
+    position: sticky;
+    margin-bottom: 20px;
+    top: 0;
+    z-index: 99;
+}
+.header_left
+{
+    display: flex;
+}
+.header_left img{
+    height: 35px;
+    margin-left: 15rem;
+}
+.header_search
+{
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    padding: 3px 10px;
+    border-radius: 5px;
+
+}
+.header_search input{
+    outline: 0;
+    background-color: transparent;
+    min-width: 220px;
+    border: 0px;
+}
+.header_search svg{
+    font-size: 20px;
+    color: #333;
+}

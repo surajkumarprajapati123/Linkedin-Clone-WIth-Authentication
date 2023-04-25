@@ -1,0 +1,73 @@
+.feed
+{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+ .feed .feed__input
+{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px; 
+    flex-direction: column;
+}
+.feed .feed__form
+{
+    display: flex;    
+   
+}
+.feed .feed__form .MuiAvatar-circular
+{
+      cursor: pointer;
+}
+.feed .feed__input form
+{
+   display: flex;
+   align-items: center;
+   margin-bottom: 4px;
+   flex: 1;
+   
+   
+   
+}
+.feed .feed__input form input[type='text']
+{
+   flex: 1;
+   border-radius: 20px;
+   padding: 0px 10px;
+   margin-left: 10px;
+   height: 30px;
+   outline: 0;
+   border: 1px solid rgb(224, 216, 216);
+}
+.feed .feed__input form button[type='text']
+{
+    display: none;
+     
+}
+.fid__option
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.fid__option .option{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 10px;
+
+}
+.fid__option .option span{
+    margin-left: 5px;
+
+}
+.fid__option .option:hover{
+    background-color: yellow;
+
+}

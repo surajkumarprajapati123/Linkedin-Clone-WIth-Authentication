@@ -1,0 +1,53 @@
+.post
+{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px ;
+}
+.post .post__header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post .post__header .post_header_left
+{
+    display: flex;
+    align-items: center;
+   
+}
+.post .post__header .post_header_left .MuiAvatar-circular
+{
+   cursor: pointer;
+}
+.post .post__header .post_header_left .post_profile_details h4
+{
+   font-size: 14px;
+   margin: 0px;
+   margin-left: 10px; 
+}
+.post .post__header .post_header_left .post_profile_details p
+{
+   font-size: 12px;
+   margin: 0px;
+   margin-left: 10px; 
+}
+  .post_footer
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d6cbcb;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.post_footer .post__footer_option
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.post_footer  .post__footer_option svg
+{
+    margin-right: 10px;
+}
